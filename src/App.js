@@ -4,24 +4,28 @@ import { Greet } from './components/greet';
 import Welcome from './components/Welcome';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
 
 function App()
 {
   return (
     <div className="App">
-    <Counter/>
+    {/* <Counter/> */}
+    <FunctionClick/>
+
+    
 
       {/* <Message/> */ }
       {/* <Greet name="Bruce" heroName="Batman">
         <p>This is the childern prop</p>
-      </Greet>
-      <Greet name="Clarck" heroName="Super man" >
+      </Greet> */}
+      {/* <Greet name="Clarck" heroName="Super man" >
         <button>Action</button>
       </Greet>
       <Greet name="Diana" heroName="Wonder women" />
       <Welcome name="Bruce" heroName="Batman" />
-      <Welcome name="Clarck" heroName="Super man" />
-      <Welcome name="Diana" heroName="Wonder women" /> */}
+      <Welcome name="Clarck" heroName="Super man" /> */}
+      {/* <Welcome name="Diana" heroName="Wonder women" /> */}
     </div>
   );
 }

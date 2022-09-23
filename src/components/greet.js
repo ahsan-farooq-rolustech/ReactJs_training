@@ -8,10 +8,11 @@ import React from "react";
 // }
 
 export const Greet=(props)=>{
+    const {name,heroName,children}=props;
     return (
     <div>
-            <h1>Hellow { props.name } Hero name is { props.heroName }</h1>
-            {props.children}
+            <h1>Hellow { name } Hero name is { heroName }</h1>
+            {children}
     </div>
     );
 }
